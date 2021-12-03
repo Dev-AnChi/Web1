@@ -38,3 +38,4 @@ function Ketqua()
     var s = eval(document.getElementById("hienthi_kq").value);
     document.getElementById("hienthi_kq").value = s;
 }
+//pham
