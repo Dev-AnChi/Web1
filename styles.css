@@ -1,0 +1,41 @@
+body{
+    width: 400px;
+    margin: 0 auto;
+    padding: 0px;
+}
+#maytinh{
+    width: 100%;
+    border: 1px black solid;
+}
+#tieude{
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    border: 1px black solid;
+}
+#hienthi_kq{
+    width: 99%;
+    height: 50px;
+    background-color: white;
+    border : 1px black solid;
+    font-size: 20px;
+}
+#bnt{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#bnt input{
+    width: 25%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#kq_rs{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+

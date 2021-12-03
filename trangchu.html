@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Máy tính</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div id="maytinh">
+      <div id="tieude">
+        <h3>Máy tính đơn giản</h3>
+      </div>
+      <div id="ketqua">
+        <input type="text" value="" id="hienthi_kq" disabled="false" />
+      </div>
+
+      <div id="bnt">
+        <input type="button" id="bt0" value="0" onclick="Nhap('0')" />
+        <input type="button" id="bt1" value="1" onclick="Nhap('1')" />
+        <input type="button" id="bt2" value="2" onclick="Nhap('2')" />
+        <input type="button" id="bt3" value="3" onclick="Nhap('3')" />
+        <input type="button" id="bt4" value="4" onclick="Nhap('4')"/>
+        <input type="button" id="bt5" value="5" onclick="Nhap('5')" />
+        <input type="button" id="bt6" value="6" onclick="Nhap('6')"/>
+        <input type="button" id="bt7" value="7" onclick="Nhap('7')"/>
+        <input type="button" id="bt8" value="8" onclick="Nhap('8')"/>
+        <input type="button" id="bt9" value="9" onclick="Nhap('9')"/>
+        <div id="pheptinh">
+            <input type="button" id="btCong" value="+" onclick="Nhap('+')"/>
+            <input type="button" id="btTru" value="-" onclick="Nhap('-')"/>
+            <input type="button" id="btNhan" value="*" onclick="Nhap('*')"/>
+            <input type="button" id="btChia" value="/" onclick="Nhap('/')"/>
+        </div>     
+        <div id="kq_rs">
+            <input type="button" id="btKetqua" value="Kết quả" onclick="Ketqua()"/>
+            <input type="button" id="reset" value="Reset" onclick="Reset()" />
+        </div> 
+      </div>
+    </div>
+  </body>
+</html>
